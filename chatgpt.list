@@ -36,7 +36,6 @@ DOMAIN,grazie.aws.intellij.net
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
-DOMAIN-REGEX,^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
 
 # 支付相关域名
 DOMAIN-SUFFIX,invoice.stripe.com
