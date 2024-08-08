@@ -1,30 +1,51 @@
+# OpenAI 相关域名
 DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,pay.openai.com
-DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,chat.openai.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,auth0.openai.com
-DOMAIN-SUFFIX,platform.openai.com
-# Add ai.com
-DOMAIN-SUFFIX,ai.com
-# Add stripe.com
-DOMAIN-SUFFIX,invoice.stripe.com
-DOMAIN-SUFFIX,stripe.com
-#add poe.com
-DOMAIN-SUFFIX,poe.com
-#add bard.google.com
-DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,makersuite.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,apis.google.com
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,openaicom.imgix.net
+DOMAIN,openai.com.cdn.cloudflare.net
+
+# AI 相关域名
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,api.githubcopilot.com
+DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,aida.googleapis.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,grazie.aws.intellij.net
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN-REGEX,^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
+
+# 支付相关域名
+DOMAIN-SUFFIX,invoice.stripe.com
+DOMAIN-SUFFIX,stripe.com
+
+# 其他相关域名
+DOMAIN-SUFFIX,www.bing.com
+DOMAIN-SUFFIX,sydney.bing.com
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
+DOMAIN-SUFFIX,imagine.meta.com
+DOMAIN,o33249.ingest.sentry.io
