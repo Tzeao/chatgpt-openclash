@@ -1,110 +1,13 @@
-# NAME: OpenAI
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:20:00
-# DOMAIN: 21
-# DOMAIN-KEYWORD: 7
-# DOMAIN-SUFFIX: 52
-# IP-ASN: 1
-# IP-CIDR: 2
-# TOTAL: 83
 
-# OpenAI 核心域名
-DOMAIN,browser-intake-datadoghq.com
-DOMAIN,chat.openai.com.cdn.cloudflare.net
-DOMAIN,openai-api.arkoselabs.com
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
-DOMAIN,static.cloudflareinsights.com
-
-# OpenAI 域名后缀
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,algolia.net
-DOMAIN-SUFFIX,api.statsig.com
-DOMAIN-SUFFIX,auth.openai.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,chatgpt.livekit.cloud
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,host.livekit.cloud
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,launchdarkly.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,observeit.net
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,openaicom.imgix.net
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,turn.livekit.cloud
-
-# 其他AI服务域名
-DOMAIN-SUFFIX,ai.azure.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,mistral.ai
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,grazie.ai
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claudeusercontent.com
-DOMAIN-SUFFIX,api.githubcopilot.com
-DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,ai.google.dev
-DOMAIN-SUFFIX,aida.googleapis.com
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-SUFFIX,www.bing.com
-DOMAIN-SUFFIX,sydney.bing.com
-DOMAIN-SUFFIX,copilot.microsoft.com
-DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
-DOMAIN-SUFFIX,imagine.meta.com
-DOMAIN-SUFFIX,copilot.cloud.microsoft
-DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursor.sh
-DOMAIN-SUFFIX,sora.com
-
-# 支付相关域名
-DOMAIN-SUFFIX,invoice.stripe.com
-
-# 其他域名
-DOMAIN,servd-anthropic-website.b-cdn.net
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,grazie.aws.intellij.net
-DOMAIN,o33249.ingest.sentry.io
-DOMAIN,ai.google.dev
-DOMAIN,aistudio.google.com
-DOMAIN,api.githubcopilot.com
+# 新增的唯一域名
 DOMAIN,api.groq.com
 DOMAIN,api.together.xyz
-DOMAIN,bard.google.com
 DOMAIN,console.groq.com
-DOMAIN,copilot-proxy.githubusercontent.com
-DOMAIN,gemini.google.com
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,sydney.bing.com
 
-# 域名关键词
-DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
-DOMAIN-KEYWORD,generativelanguage
+# 新增的关键词
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,openai
 
-# IP规则
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-IP-ASN,20473,no-resolve
+# 新增的域名后缀
+DOMAIN-SUFFIX,sora.com
